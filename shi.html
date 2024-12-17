@@ -1,0 +1,73 @@
+<html>
+  <head>
+
+    <style>
+
+body{
+  background-color: cadetblue ;
+}
+      button
+      {
+        margin: 30px;
+        padding: 30px;
+        
+   
+        color: blue;
+    
+      }
+
+      button:hover{
+        color: brown;
+        background-color: bisque;
+      }
+    </style>
+  </head>
+  <body>
+    <script>  
+
+let grade ;
+
+grade = prompt(" enter obtain marks ")
+
+if ( grade <100 && grade >80  )
+{
+  alert("A")
+}
+
+else if ( grade <79 && grade >70  )
+{
+alert("B")
+}
+
+else if ( grade <69 && grade >60  )
+{
+alert("C")
+}
+
+else if ( grade <59 && grade >50  )
+{
+alert("D")
+}
+
+
+else if ( grade <49 && grade >0  )
+{
+alert("F")
+}
+
+
+else 
+{
+  alert(" Enter your marks less than full marks")
+}
+
+
+
+
+    </script>
+
+
+
+    <button onclick="window.location.reload()"> Check Again  </button>
+  </body>
+</html>
